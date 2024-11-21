@@ -4,9 +4,9 @@
 
    `make up` or `docker compose up -d`
 
-   In case that the data is not being loaded
+   - In case that the data is not being loaded
 
-   Go into the `my-postgres-container` bash
+   - Go into the `my-postgres-container` bash
 
    `su - <postgres-username>`
 
