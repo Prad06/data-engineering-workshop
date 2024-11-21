@@ -11,8 +11,8 @@
    ````sh
    docker compose up -d
    ```sh
-   su - <postgres-username>
-   ````
+      su - \<postgres-username\>
+   ```
 
    - In case that the data is not being loaded
 
@@ -22,7 +22,9 @@
 
    `cd docker-entrypoint-initdb.d`
 
-   `sh init-db.sh` 2. Accessing the PostgreSQL Database
+   `sh init-db.sh`
+
+   2. Accessing the PostgreSQL Database
 
    - Connect to the PostgreSQL database using the following command:
 
@@ -50,3 +52,4 @@
 
       - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
       - [Docker Documentation](https://docs.docker.com/)
+   ````
